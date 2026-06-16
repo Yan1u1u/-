@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===========================
+# IDE
+# ===========================
+
+.idea/
+.vscode/
+
+# ===========================
+# Project Data
+# ===========================
+
+data/raw/
+data/clean/
+data/result/
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Chrome Driver
+chromedriver.exe
+chromedriver
+
+# OS Files
+.DS_Store
+Thumbs.db
